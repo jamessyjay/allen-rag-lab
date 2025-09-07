@@ -1,0 +1,10 @@
+# To ensure app dependencies are ported from your virtual environment/host machine into your container, run 'pip freeze > requirements.txt' in the terminal to overwrite this file
+setuptools
+wheel
+make
+numpy~=1.26.4
+pandas
+matplotlib
+allensdk
+ipfx
+neurom
